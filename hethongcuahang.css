@@ -1,0 +1,12 @@
+#left_img {
+  width: 210px;
+  height: 210px;
+  border: 3px solid rgb(241, 222, 42);
+  animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+  50% {
+    border-radius: 50px;
+  }
+}

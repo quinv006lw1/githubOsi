@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+
+.top h1 {
+  color: black;
+}
+
+.top h3 {
+  color: black;
+}
+
+.imglogo {
+  margin-top: 50px;
+  color: red;
+  width: 100%;
+}
+
+.imglogo img {
+  height: 460px;
+}
+
+.text_top_logo h4 {
+  color: red;
+
+}
+
+.text_top_logo p {
+  color: yellow;
+}
+
+.bodyheader1 {
+  margin-top: 50px;
+}
+
+.textbodyheader1 {
+  text-align: center;
+  color: black;
+}
+
+
+.imgbodyheader1 {
+  max-width: 100%;
+}
+
+.imgbodyheader1 img {
+  border: 5px solid rgb(241, 222, 42);
+  border-radius: 80px 30px;
+}
+
+
+.bodyheader4,
+.bodyheader5,
+.bodyheader6 {
+  margin-top: 50px;
+}
+
+.mapbodyheader4 {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.mapbodyheader4 {
+  border: 5px solid rgb(241, 222, 42);
+  border-radius: 15px 50px;
+  width: 460px;
+  height: 400px;
+}
+
+.bodyheader5 {
+  background-color: rgb(224, 205, 255);
+  height: 1000px;
+}
+
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+/*hieu ung*/
+
+.top {
+  background-repeat: no-repeat;
+  text-align: center;
+  max-width: 100%;
+  height: 461px;
+  transform-origin: center;
+  animation: leaves 2s ease-in-out alternate;
+}
+
+.textfooter {
+  width: 60px;
+}
+
+.max-height big {
+  font-weight: bold;
+}
+
+
+@keyframes leaves {
+  0% {
+    transform: scale(1.2);
+    opacity: 0;
+    background-color: black;
+  }
+
+  100% {
+    transform: scale(1.0);
+    opacity: 1;
+    background-color: white;
+  }
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
